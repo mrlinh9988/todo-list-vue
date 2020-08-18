@@ -5,13 +5,9 @@
 </template>
 
 <script>
-// import Header from "./components/layouts/Header";
-
 export default {
-  name: "App",
-  components: {
-    // Header,
-  },
+  name: 'app',
+  components: {},
 };
 </script>
 

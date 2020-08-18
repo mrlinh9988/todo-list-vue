@@ -46,7 +46,6 @@ export default {
     axios
       .get('http://localhost:3000/todo')
       .then((res) => {
-        console.log('res: ', res);
         return (this.todos = res.data.allTodos);
       })
       .catch((error) => console.log(error));
